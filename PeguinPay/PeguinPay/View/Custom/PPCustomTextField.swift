@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 class PPCustomTextField: UITextField {
-    
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -29,8 +28,6 @@ class PPCustomTextField: UITextField {
         self.addDoneButtonOnKeyboard()
         self.keyboardType = hasDigit ? .decimalPad : .default
     }
-    
-    
 }
 
 extension UITextField {

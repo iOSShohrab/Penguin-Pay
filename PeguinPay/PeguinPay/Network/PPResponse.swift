@@ -11,7 +11,5 @@ struct PPResponse {
     var data:Data?
     var response: URLResponse?
     var error: Error?
-    
-    // Shohrab - validation things if requried
 }
 

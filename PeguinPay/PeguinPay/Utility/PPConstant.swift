@@ -37,6 +37,10 @@ enum PPCountry: String {
     static func receiver() -> [PPCountry] {
         return [.kenya, .uganda, .nigeria]
     }
+    
+    static func sender() -> [PPCountry] {
+        return [.usa, .binaria]
+    }
 }
 
 

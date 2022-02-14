@@ -41,12 +41,8 @@ class PPMockData {
         }
     }
     
-    public func addTransaction(_ transaction: PPTransaction) {
+    func addTransaction(_ transaction: PPTransaction) {
         transactions.insert(transaction, at: 0)
-    }
-    
-    public func allTransaction() -> [PPTransaction] {
-        return transactions
     }
 }
 

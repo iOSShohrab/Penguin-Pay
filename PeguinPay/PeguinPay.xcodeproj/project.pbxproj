@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1887117927B96C3B00C55F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887117827B96C3B00C55F68 /* AppDelegate.swift */; };
 		1887117B27B96C3B00C55F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887117A27B96C3B00C55F68 /* SceneDelegate.swift */; };
-		1887117D27B96C3B00C55F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887117C27B96C3B00C55F68 /* ViewController.swift */; };
 		1887118027B96C3B00C55F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1887117E27B96C3B00C55F68 /* Main.storyboard */; };
 		1887118227B96C3E00C55F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1887118127B96C3E00C55F68 /* Assets.xcassets */; };
 		1887118527B96C3E00C55F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1887118327B96C3E00C55F68 /* LaunchScreen.storyboard */; };
@@ -71,7 +70,6 @@
 		1887117527B96C3B00C55F68 /* PeguinPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeguinPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1887117827B96C3B00C55F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1887117A27B96C3B00C55F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1887117C27B96C3B00C55F68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1887117F27B96C3B00C55F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1887118127B96C3E00C55F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1887118427B96C3E00C55F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -147,14 +145,14 @@
 		1887117727B96C3B00C55F68 /* PeguinPay */ = {
 			isa = PBXGroup;
 			children = (
+				188711A827B96C5D00C55F68 /* AppDelegate */,
+				188711A927B96C7000C55F68 /* ViewController */,
+				188711AC27B96C9E00C55F68 /* ViewModel */,
+				188711AD27B96CA500C55F68 /* Model */,
 				188711D427B9C80B00C55F68 /* Network */,
 				188711BA27B97ACB00C55F68 /* Utility */,
 				188711AE27B96CC000C55F68 /* DataLayer */,
-				188711AD27B96CA500C55F68 /* Model */,
-				188711AC27B96C9E00C55F68 /* ViewModel */,
 				188711AA27B96C7900C55F68 /* View */,
-				188711A927B96C7000C55F68 /* ViewController */,
-				188711A827B96C5D00C55F68 /* AppDelegate */,
 				1887118127B96C3E00C55F68 /* Assets.xcassets */,
 				1887118627B96C3E00C55F68 /* Info.plist */,
 			);
@@ -183,7 +181,6 @@
 			children = (
 				1887117827B96C3B00C55F68 /* AppDelegate.swift */,
 				1887117A27B96C3B00C55F68 /* SceneDelegate.swift */,
-				1887117C27B96C3B00C55F68 /* ViewController.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -408,7 +405,6 @@
 				188711D927B9C83600C55F68 /* PPRequest.swift in Sources */,
 				188711BF27B982A900C55F68 /* PPTransactionViewModel.swift in Sources */,
 				188711BC27B97AE500C55F68 /* PPConstant.swift in Sources */,
-				1887117D27B96C3B00C55F68 /* ViewController.swift in Sources */,
 				188711CE27B9C06700C55F68 /* PPSendMoneyViewController.swift in Sources */,
 				188711CB27B9BCC500C55F68 /* PPExtensions.swift in Sources */,
 				188711DF27B9C98C00C55F68 /* PPHomeViewModel.swift in Sources */,

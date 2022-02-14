@@ -9,10 +9,6 @@ import Foundation
 
 class PPNetwork :  NSObject {
     
-    /**
-     ########### Handle SSL pinning here if required  ###########
-     */
-    
     static let shared = PPNetwork()
     
     private override init() {

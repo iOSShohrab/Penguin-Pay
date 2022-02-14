@@ -13,7 +13,7 @@ class PPTransactionViewModel {
     
     func fetchTransactions(completions: ([PPTransaction]?) -> ()) {
         // Note:- This will have a server call to fetch all the transaction based on userId
-        completions(PPMockData.shared.allTransaction())
+        completions(PPMockData.shared.transactions)
     }
     
     func visiableValues(transaction: PPTransaction) -> (visiableSendAmount: String, visiableReceiveAmount: String) {
