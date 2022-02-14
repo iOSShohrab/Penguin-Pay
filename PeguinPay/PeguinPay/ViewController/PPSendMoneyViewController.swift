@@ -25,16 +25,15 @@ class PPSendMoneyViewController: UIViewController {
     @IBOutlet weak var dropDownViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var dropdown: UIPickerView!
     
-    var countries = PPCountry.receiver()
-    var sendCountry: PPCountry = .usa
-    var selectedCountry: PPCountry = .kenya
+    private var countries = PPCountry.receiver()
+    private var sendCountry: PPCountry = .usa
+    private var selectedCountry: PPCountry = .kenya
     
     override func viewDidLoad() {
         super.viewDidLoad()
         sendCountry = PPMockData.shared.senderCountry
         updateTextFields(country: .usa)
         tfAmount.addTarget(self, action: #selector(self.textFieldDidChange(_:)), for: .editingChanged)
-        
         tfFirstName.placeholder = "First Name"
         tfLastName.placeholder = "Last Name"
     }
@@ -45,7 +44,7 @@ class PPSendMoneyViewController: UIViewController {
         }
     }
     
-    func conversion() {
+    private func conversion() {
         if sendCountry == .binaria {
             let amountInDec = tfAmount.text!.Decimal
             let convertedAmount = PPCurrency().covert(valueInUSD: Double(amountInDec) ?? 0, receiveCountry: selectedCountry)
@@ -91,7 +90,6 @@ class PPSendMoneyViewController: UIViewController {
             self.navigationController?.popViewController(animated: true)
         }))
         self.present(alert, animated: true, completion: nil)
-        
     }
     
     private func alertFail() {
