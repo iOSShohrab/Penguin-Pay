@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1887117927B96C3B00C55F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887117827B96C3B00C55F68 /* AppDelegate.swift */; };
+		1887117B27B96C3B00C55F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887117A27B96C3B00C55F68 /* SceneDelegate.swift */; };
+		1887117D27B96C3B00C55F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887117C27B96C3B00C55F68 /* ViewController.swift */; };
+		1887118027B96C3B00C55F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1887117E27B96C3B00C55F68 /* Main.storyboard */; };
+		1887118227B96C3E00C55F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1887118127B96C3E00C55F68 /* Assets.xcassets */; };
+		1887118527B96C3E00C55F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1887118327B96C3E00C55F68 /* LaunchScreen.storyboard */; };
+		1887119027B96C3E00C55F68 /* PeguinPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887118F27B96C3E00C55F68 /* PeguinPayTests.swift */; };
+		1887119A27B96C3E00C55F68 /* PeguinPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887119927B96C3E00C55F68 /* PeguinPayUITests.swift */; };
+		1887119C27B96C3E00C55F68 /* PeguinPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887119B27B96C3E00C55F68 /* PeguinPayUITestsLaunchTests.swift */; };
+		188711B027B96D3500C55F68 /* PPHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711AF27B96D3500C55F68 /* PPHomeViewController.swift */; };
+		188711B127B96D3500C55F68 /* PPHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711AF27B96D3500C55F68 /* PPHomeViewController.swift */; };
+		188711B427B9780600C55F68 /* PPTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711B327B9780600C55F68 /* PPTransactionsViewController.swift */; };
+		188711B527B9780600C55F68 /* PPTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711B327B9780600C55F68 /* PPTransactionsViewController.swift */; };
+		188711B827B9783C00C55F68 /* PPTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711B727B9783C00C55F68 /* PPTransactionCell.swift */; };
+		188711B927B9783C00C55F68 /* PPTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711B727B9783C00C55F68 /* PPTransactionCell.swift */; };
+		188711BC27B97AE500C55F68 /* PPConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711BB27B97AE500C55F68 /* PPConstant.swift */; };
+		188711BD27B97AE500C55F68 /* PPConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711BB27B97AE500C55F68 /* PPConstant.swift */; };
+		188711BF27B982A900C55F68 /* PPTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711BE27B982A900C55F68 /* PPTransactionViewModel.swift */; };
+		188711C027B982A900C55F68 /* PPTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711BE27B982A900C55F68 /* PPTransactionViewModel.swift */; };
+		188711C227B9838A00C55F68 /* PPTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711C127B9838A00C55F68 /* PPTransaction.swift */; };
+		188711C327B9838A00C55F68 /* PPTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711C127B9838A00C55F68 /* PPTransaction.swift */; };
+		188711C527B998F400C55F68 /* PPMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711C427B998F400C55F68 /* PPMockData.swift */; };
+		188711C627B998F400C55F68 /* PPMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711C427B998F400C55F68 /* PPMockData.swift */; };
+		188711C827B9B85800C55F68 /* PPCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711C727B9B85800C55F68 /* PPCurrency.swift */; };
+		188711C927B9B85800C55F68 /* PPCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711C727B9B85800C55F68 /* PPCurrency.swift */; };
+		188711CB27B9BCC500C55F68 /* PPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711CA27B9BCC500C55F68 /* PPExtensions.swift */; };
+		188711CC27B9BCC500C55F68 /* PPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711CA27B9BCC500C55F68 /* PPExtensions.swift */; };
+		188711CE27B9C06700C55F68 /* PPSendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711CD27B9C06700C55F68 /* PPSendMoneyViewController.swift */; };
+		188711CF27B9C06700C55F68 /* PPSendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711CD27B9C06700C55F68 /* PPSendMoneyViewController.swift */; };
+		188711D227B9C0D700C55F68 /* PPCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711D127B9C0D700C55F68 /* PPCustomTextField.swift */; };
+		188711D327B9C0D700C55F68 /* PPCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711D127B9C0D700C55F68 /* PPCustomTextField.swift */; };
+		188711D627B9C82000C55F68 /* PPNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711D527B9C82000C55F68 /* PPNetwork.swift */; };
+		188711D727B9C82000C55F68 /* PPNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711D527B9C82000C55F68 /* PPNetwork.swift */; };
+		188711D927B9C83600C55F68 /* PPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711D827B9C83600C55F68 /* PPRequest.swift */; };
+		188711DA27B9C83600C55F68 /* PPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711D827B9C83600C55F68 /* PPRequest.swift */; };
+		188711DC27B9C84000C55F68 /* PPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711DB27B9C84000C55F68 /* PPResponse.swift */; };
+		188711DD27B9C84000C55F68 /* PPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711DB27B9C84000C55F68 /* PPResponse.swift */; };
+		188711DF27B9C98C00C55F68 /* PPHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711DE27B9C98C00C55F68 /* PPHomeViewModel.swift */; };
+		188711E027B9C98C00C55F68 /* PPHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711DE27B9C98C00C55F68 /* PPHomeViewModel.swift */; };
+		188711E227B9CA2200C55F68 /* PPExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711E127B9CA2200C55F68 /* PPExchangeRate.swift */; };
+		188711E327B9CA2200C55F68 /* PPExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188711E127B9CA2200C55F68 /* PPExchangeRate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1887118C27B96C3E00C55F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1887116D27B96C3B00C55F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1887117427B96C3B00C55F68;
+			remoteInfo = PeguinPay;
+		};
+		1887119627B96C3E00C55F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1887116D27B96C3B00C55F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1887117427B96C3B00C55F68;
+			remoteInfo = PeguinPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1887117527B96C3B00C55F68 /* PeguinPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeguinPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1887117827B96C3B00C55F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1887117A27B96C3B00C55F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1887117C27B96C3B00C55F68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1887117F27B96C3B00C55F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1887118127B96C3E00C55F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1887118427B96C3E00C55F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1887118627B96C3E00C55F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1887118B27B96C3E00C55F68 /* PeguinPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeguinPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1887118F27B96C3E00C55F68 /* PeguinPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeguinPayTests.swift; sourceTree = "<group>"; };
+		1887119527B96C3E00C55F68 /* PeguinPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeguinPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1887119927B96C3E00C55F68 /* PeguinPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeguinPayUITests.swift; sourceTree = "<group>"; };
+		1887119B27B96C3E00C55F68 /* PeguinPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeguinPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		188711AF27B96D3500C55F68 /* PPHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPHomeViewController.swift; sourceTree = "<group>"; };
+		188711B327B9780600C55F68 /* PPTransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPTransactionsViewController.swift; sourceTree = "<group>"; };
+		188711B727B9783C00C55F68 /* PPTransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPTransactionCell.swift; sourceTree = "<group>"; };
+		188711BB27B97AE500C55F68 /* PPConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPConstant.swift; sourceTree = "<group>"; };
+		188711BE27B982A900C55F68 /* PPTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPTransactionViewModel.swift; sourceTree = "<group>"; };
+		188711C127B9838A00C55F68 /* PPTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPTransaction.swift; sourceTree = "<group>"; };
+		188711C427B998F400C55F68 /* PPMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPMockData.swift; sourceTree = "<group>"; };
+		188711C727B9B85800C55F68 /* PPCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPCurrency.swift; sourceTree = "<group>"; };
+		188711CA27B9BCC500C55F68 /* PPExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPExtensions.swift; sourceTree = "<group>"; };
+		188711CD27B9C06700C55F68 /* PPSendMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPSendMoneyViewController.swift; sourceTree = "<group>"; };
+		188711D127B9C0D700C55F68 /* PPCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPCustomTextField.swift; sourceTree = "<group>"; };
+		188711D527B9C82000C55F68 /* PPNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPNetwork.swift; sourceTree = "<group>"; };
+		188711D827B9C83600C55F68 /* PPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRequest.swift; sourceTree = "<group>"; };
+		188711DB27B9C84000C55F68 /* PPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPResponse.swift; sourceTree = "<group>"; };
+		188711DE27B9C98C00C55F68 /* PPHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPHomeViewModel.swift; sourceTree = "<group>"; };
+		188711E127B9CA2200C55F68 /* PPExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPExchangeRate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1887117227B96C3B00C55F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1887118827B96C3E00C55F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1887119227B96C3E00C55F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1887116C27B96C3B00C55F68 = {
+			isa = PBXGroup;
+			children = (
+				1887117727B96C3B00C55F68 /* PeguinPay */,
+				1887118E27B96C3E00C55F68 /* PeguinPayTests */,
+				1887119827B96C3E00C55F68 /* PeguinPayUITests */,
+				1887117627B96C3B00C55F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1887117627B96C3B00C55F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1887117527B96C3B00C55F68 /* PeguinPay.app */,
+				1887118B27B96C3E00C55F68 /* PeguinPayTests.xctest */,
+				1887119527B96C3E00C55F68 /* PeguinPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1887117727B96C3B00C55F68 /* PeguinPay */ = {
+			isa = PBXGroup;
+			children = (
+				188711D427B9C80B00C55F68 /* Network */,
+				188711BA27B97ACB00C55F68 /* Utility */,
+				188711B627B9782100C55F68 /* Cells */,
+				188711AE27B96CC000C55F68 /* DataLayer */,
+				188711AD27B96CA500C55F68 /* Model */,
+				188711AC27B96C9E00C55F68 /* ViewModel */,
+				188711AA27B96C7900C55F68 /* View */,
+				188711A927B96C7000C55F68 /* ViewController */,
+				188711A827B96C5D00C55F68 /* AppDelegate */,
+				1887118127B96C3E00C55F68 /* Assets.xcassets */,
+				1887118627B96C3E00C55F68 /* Info.plist */,
+			);
+			path = PeguinPay;
+			sourceTree = "<group>";
+		};
+		1887118E27B96C3E00C55F68 /* PeguinPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				1887118F27B96C3E00C55F68 /* PeguinPayTests.swift */,
+			);
+			path = PeguinPayTests;
+			sourceTree = "<group>";
+		};
+		1887119827B96C3E00C55F68 /* PeguinPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1887119927B96C3E00C55F68 /* PeguinPayUITests.swift */,
+				1887119B27B96C3E00C55F68 /* PeguinPayUITestsLaunchTests.swift */,
+			);
+			path = PeguinPayUITests;
+			sourceTree = "<group>";
+		};
+		188711A827B96C5D00C55F68 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1887117827B96C3B00C55F68 /* AppDelegate.swift */,
+				1887117A27B96C3B00C55F68 /* SceneDelegate.swift */,
+				1887117C27B96C3B00C55F68 /* ViewController.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		188711A927B96C7000C55F68 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188711AF27B96D3500C55F68 /* PPHomeViewController.swift */,
+				188711B327B9780600C55F68 /* PPTransactionsViewController.swift */,
+				188711CD27B9C06700C55F68 /* PPSendMoneyViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		188711AA27B96C7900C55F68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188711D027B9C08500C55F68 /* Custom */,
+				1887117E27B96C3B00C55F68 /* Main.storyboard */,
+				1887118327B96C3E00C55F68 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		188711AC27B96C9E00C55F68 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				188711DE27B9C98C00C55F68 /* PPHomeViewModel.swift */,
+				188711BE27B982A900C55F68 /* PPTransactionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		188711AD27B96CA500C55F68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				188711C127B9838A00C55F68 /* PPTransaction.swift */,
+				188711E127B9CA2200C55F68 /* PPExchangeRate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		188711AE27B96CC000C55F68 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				188711C427B998F400C55F68 /* PPMockData.swift */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		188711B627B9782100C55F68 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				188711B727B9783C00C55F68 /* PPTransactionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		188711BA27B97ACB00C55F68 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				188711BB27B97AE500C55F68 /* PPConstant.swift */,
+				188711C727B9B85800C55F68 /* PPCurrency.swift */,
+				188711CA27B9BCC500C55F68 /* PPExtensions.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		188711D027B9C08500C55F68 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				188711D127B9C0D700C55F68 /* PPCustomTextField.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		188711D427B9C80B00C55F68 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				188711D527B9C82000C55F68 /* PPNetwork.swift */,
+				188711D827B9C83600C55F68 /* PPRequest.swift */,
+				188711DB27B9C84000C55F68 /* PPResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1887117427B96C3B00C55F68 /* PeguinPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1887119F27B96C3E00C55F68 /* Build configuration list for PBXNativeTarget "PeguinPay" */;
+			buildPhases = (
+				1887117127B96C3B00C55F68 /* Sources */,
+				1887117227B96C3B00C55F68 /* Frameworks */,
+				1887117327B96C3B00C55F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeguinPay;
+			productName = PeguinPay;
+			productReference = 1887117527B96C3B00C55F68 /* PeguinPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1887118A27B96C3E00C55F68 /* PeguinPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188711A227B96C3E00C55F68 /* Build configuration list for PBXNativeTarget "PeguinPayTests" */;
+			buildPhases = (
+				1887118727B96C3E00C55F68 /* Sources */,
+				1887118827B96C3E00C55F68 /* Frameworks */,
+				1887118927B96C3E00C55F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1887118D27B96C3E00C55F68 /* PBXTargetDependency */,
+			);
+			name = PeguinPayTests;
+			productName = PeguinPayTests;
+			productReference = 1887118B27B96C3E00C55F68 /* PeguinPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1887119427B96C3E00C55F68 /* PeguinPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188711A527B96C3E00C55F68 /* Build configuration list for PBXNativeTarget "PeguinPayUITests" */;
+			buildPhases = (
+				1887119127B96C3E00C55F68 /* Sources */,
+				1887119227B96C3E00C55F68 /* Frameworks */,
+				1887119327B96C3E00C55F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1887119727B96C3E00C55F68 /* PBXTargetDependency */,
+			);
+			name = PeguinPayUITests;
+			productName = PeguinPayUITests;
+			productReference = 1887119527B96C3E00C55F68 /* PeguinPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1887116D27B96C3B00C55F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1887117427B96C3B00C55F68 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1887118A27B96C3E00C55F68 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1887117427B96C3B00C55F68;
+					};
+					1887119427B96C3E00C55F68 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1887117427B96C3B00C55F68;
+					};
+				};
+			};
+			buildConfigurationList = 1887117027B96C3B00C55F68 /* Build configuration list for PBXProject "PeguinPay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1887116C27B96C3B00C55F68;
+			productRefGroup = 1887117627B96C3B00C55F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1887117427B96C3B00C55F68 /* PeguinPay */,
+				1887118A27B96C3E00C55F68 /* PeguinPayTests */,
+				1887119427B96C3E00C55F68 /* PeguinPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1887117327B96C3B00C55F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1887118527B96C3E00C55F68 /* LaunchScreen.storyboard in Resources */,
+				1887118227B96C3E00C55F68 /* Assets.xcassets in Resources */,
+				1887118027B96C3B00C55F68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1887118927B96C3E00C55F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1887119327B96C3E00C55F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1887117127B96C3B00C55F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188711D627B9C82000C55F68 /* PPNetwork.swift in Sources */,
+				188711B427B9780600C55F68 /* PPTransactionsViewController.swift in Sources */,
+				188711C227B9838A00C55F68 /* PPTransaction.swift in Sources */,
+				188711D927B9C83600C55F68 /* PPRequest.swift in Sources */,
+				188711BF27B982A900C55F68 /* PPTransactionViewModel.swift in Sources */,
+				188711BC27B97AE500C55F68 /* PPConstant.swift in Sources */,
+				1887117D27B96C3B00C55F68 /* ViewController.swift in Sources */,
+				188711CE27B9C06700C55F68 /* PPSendMoneyViewController.swift in Sources */,
+				188711CB27B9BCC500C55F68 /* PPExtensions.swift in Sources */,
+				188711DF27B9C98C00C55F68 /* PPHomeViewModel.swift in Sources */,
+				188711B827B9783C00C55F68 /* PPTransactionCell.swift in Sources */,
+				188711B027B96D3500C55F68 /* PPHomeViewController.swift in Sources */,
+				1887117927B96C3B00C55F68 /* AppDelegate.swift in Sources */,
+				188711DC27B9C84000C55F68 /* PPResponse.swift in Sources */,
+				1887117B27B96C3B00C55F68 /* SceneDelegate.swift in Sources */,
+				188711C827B9B85800C55F68 /* PPCurrency.swift in Sources */,
+				188711E227B9CA2200C55F68 /* PPExchangeRate.swift in Sources */,
+				188711D227B9C0D700C55F68 /* PPCustomTextField.swift in Sources */,
+				188711C527B998F400C55F68 /* PPMockData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1887118727B96C3E00C55F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188711B927B9783C00C55F68 /* PPTransactionCell.swift in Sources */,
+				188711C027B982A900C55F68 /* PPTransactionViewModel.swift in Sources */,
+				1887119027B96C3E00C55F68 /* PeguinPayTests.swift in Sources */,
+				188711E327B9CA2200C55F68 /* PPExchangeRate.swift in Sources */,
+				188711CC27B9BCC500C55F68 /* PPExtensions.swift in Sources */,
+				188711B527B9780600C55F68 /* PPTransactionsViewController.swift in Sources */,
+				188711E027B9C98C00C55F68 /* PPHomeViewModel.swift in Sources */,
+				188711B127B96D3500C55F68 /* PPHomeViewController.swift in Sources */,
+				188711DD27B9C84000C55F68 /* PPResponse.swift in Sources */,
+				188711D327B9C0D700C55F68 /* PPCustomTextField.swift in Sources */,
+				188711C927B9B85800C55F68 /* PPCurrency.swift in Sources */,
+				188711C327B9838A00C55F68 /* PPTransaction.swift in Sources */,
+				188711BD27B97AE500C55F68 /* PPConstant.swift in Sources */,
+				188711C627B998F400C55F68 /* PPMockData.swift in Sources */,
+				188711DA27B9C83600C55F68 /* PPRequest.swift in Sources */,
+				188711CF27B9C06700C55F68 /* PPSendMoneyViewController.swift in Sources */,
+				188711D727B9C82000C55F68 /* PPNetwork.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1887119127B96C3E00C55F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1887119A27B96C3E00C55F68 /* PeguinPayUITests.swift in Sources */,
+				1887119C27B96C3E00C55F68 /* PeguinPayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1887118D27B96C3E00C55F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1887117427B96C3B00C55F68 /* PeguinPay */;
+			targetProxy = 1887118C27B96C3E00C55F68 /* PBXContainerItemProxy */;
+		};
+		1887119727B96C3E00C55F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1887117427B96C3B00C55F68 /* PeguinPay */;
+			targetProxy = 1887119627B96C3E00C55F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1887117E27B96C3B00C55F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1887117F27B96C3B00C55F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1887118327B96C3E00C55F68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1887118427B96C3E00C55F68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1887119D27B96C3E00C55F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1887119E27B96C3E00C55F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188711A027B96C3E00C55F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeguinPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Shohrab-Chowdhury.PeguinPay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188711A127B96C3E00C55F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeguinPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Shohrab-Chowdhury.PeguinPay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		188711A327B96C3E00C55F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Shohrab-Chowdhury.PeguinPayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeguinPay.app/PeguinPay";
+			};
+			name = Debug;
+		};
+		188711A427B96C3E00C55F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Shohrab-Chowdhury.PeguinPayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeguinPay.app/PeguinPay";
+			};
+			name = Release;
+		};
+		188711A627B96C3E00C55F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Shohrab-Chowdhury.PeguinPayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeguinPay;
+			};
+			name = Debug;
+		};
+		188711A727B96C3E00C55F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Shohrab-Chowdhury.PeguinPayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeguinPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1887117027B96C3B00C55F68 /* Build configuration list for PBXProject "PeguinPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1887119D27B96C3E00C55F68 /* Debug */,
+				1887119E27B96C3E00C55F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1887119F27B96C3E00C55F68 /* Build configuration list for PBXNativeTarget "PeguinPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188711A027B96C3E00C55F68 /* Debug */,
+				188711A127B96C3E00C55F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188711A227B96C3E00C55F68 /* Build configuration list for PBXNativeTarget "PeguinPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188711A327B96C3E00C55F68 /* Debug */,
+				188711A427B96C3E00C55F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188711A527B96C3E00C55F68 /* Build configuration list for PBXNativeTarget "PeguinPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188711A627B96C3E00C55F68 /* Debug */,
+				188711A727B96C3E00C55F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1887116D27B96C3B00C55F68 /* Project object */;
+}
