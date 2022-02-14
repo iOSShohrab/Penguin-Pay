@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct PPAppID {
     static let exchange = "77d75a6b1d9e4f1fa27ee9b1abb0ce91";
 }
