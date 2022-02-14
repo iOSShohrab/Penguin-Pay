@@ -149,7 +149,6 @@
 			children = (
 				188711D427B9C80B00C55F68 /* Network */,
 				188711BA27B97ACB00C55F68 /* Utility */,
-				188711B627B9782100C55F68 /* Cells */,
 				188711AE27B96CC000C55F68 /* DataLayer */,
 				188711AD27B96CA500C55F68 /* Model */,
 				188711AC27B96C9E00C55F68 /* ViewModel */,
@@ -202,6 +201,7 @@
 		188711AA27B96C7900C55F68 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				188711B627B9782100C55F68 /* Cells */,
 				188711D027B9C08500C55F68 /* Custom */,
 				1887117E27B96C3B00C55F68 /* Main.storyboard */,
 				1887118327B96C3E00C55F68 /* LaunchScreen.storyboard */,

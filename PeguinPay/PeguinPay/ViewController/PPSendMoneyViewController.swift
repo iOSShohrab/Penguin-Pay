@@ -79,7 +79,6 @@ class PPSendMoneyViewController: UIViewController {
                                                            receiveCountry: selectedCountry,
                                                            sendAmt: sendAmt))
             alertSuccess()
-            
         }
         else {
             alertFail()
@@ -104,7 +103,7 @@ class PPSendMoneyViewController: UIViewController {
 
 extension PPSendMoneyViewController: UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
     
-    public func numberOfComponents(in pickerView: UIPickerView) -> Int{
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
     
@@ -114,7 +113,7 @@ extension PPSendMoneyViewController: UIPickerViewDelegate, UIPickerViewDataSourc
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         self.view.endEditing(true)
-        return countries[row].rawValue.capitalized
+        return countries[row].rawValue.uppercased()
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
@@ -134,7 +133,7 @@ extension PPSendMoneyViewController: UIPickerViewDelegate, UIPickerViewDataSourc
     func updateTextFields(country: PPCountry) {
         tfFirstName.initialize()
         tfLastName.initialize()
-        tfCountry.text = country.rawValue
+        tfCountry.text = country.rawValue.uppercased()
         selectedCountry = country
         tfAmount.initialize(for: sendCountry, addLeft: true, hasDigit: true)
         tfAmountReceived.initialize(for: country, addLeft: true, hasDigit: true)
