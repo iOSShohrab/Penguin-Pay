@@ -25,7 +25,7 @@ class PPSendMoneyViewController: UIViewController {
     @IBOutlet weak var dropDownViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var dropdown: UIPickerView!
     
-    var countries: [PPCountry] = [.kenya, .nigeria, .uganda]
+    var countries = PPCountry.receiver()
     var sendCountry: PPCountry = .usa
     var selectedCountry: PPCountry = .kenya
     
@@ -114,7 +114,7 @@ extension PPSendMoneyViewController: UIPickerViewDelegate, UIPickerViewDataSourc
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         self.view.endEditing(true)
-        return countries[row].rawValue
+        return countries[row].rawValue.capitalized
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {

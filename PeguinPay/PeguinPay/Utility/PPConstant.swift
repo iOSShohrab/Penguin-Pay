@@ -33,8 +33,11 @@ enum PPCountry: String {
         case .nigeria:  return "NGN"
         }
     }
+    
+    static func receiver() -> [PPCountry] {
+        return [.kenya, .uganda, .nigeria]
+    }
 }
-
 
 
 

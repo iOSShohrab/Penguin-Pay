@@ -13,13 +13,11 @@ class PPMockData {
     private(set) var senderCountry: PPCountry = .usa
     
     private init() {
-        // stop public initialization
+        populateMock()
     }
     
     func updateCountry(country: PPCountry) {
         self.senderCountry = country
-        transactions.removeAll()
-        populateMock()
     }
     
     func updateExchangeRate(_ rate: PPExchangeRate) {
@@ -33,17 +31,12 @@ class PPMockData {
     
     private func populateMock() {
         switch senderCountry {
-        case .usa:
+        case .usa, .binaria:
             addTransaction(PPTransaction(receiverFName: "John", receiverLName: "Mow", receiveCountry: .kenya, sendAmt: 2))
             addTransaction(PPTransaction(receiverFName: "Alex", receiverLName: "Peter", receiveCountry: .uganda, sendAmt: 8))
             addTransaction(PPTransaction(receiverFName: "Peter", receiverLName: "Josh", receiveCountry: .nigeria, sendAmt: 22))
             break
         case .kenya, .nigeria, .uganda:
-            break
-        case .binaria:
-            addTransaction(PPTransaction(receiverFName: "John", receiverLName: "Mow", receiveCountry: .kenya, sendAmt: 2))
-            addTransaction(PPTransaction(receiverFName: "Alex", receiverLName: "Peter", receiveCountry: .uganda, sendAmt: 8))
-            addTransaction(PPTransaction(receiverFName: "Peter", receiverLName: "Josh", receiveCountry: .nigeria, sendAmt: 22))
             break
         }
     }
