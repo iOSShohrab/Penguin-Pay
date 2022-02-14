@@ -10,11 +10,8 @@ import UIKit
 
 class PPTransactionsViewController: UIViewController {
     @IBOutlet var transactionTableView: UITableView!
-    
     let cellIdentifier = "cellTransaction"
-    
     let viewModel = PPTransactionViewModel()
-    
     var transactions: [PPTransaction]?
     
     override func viewDidLoad() {
@@ -37,7 +34,6 @@ class PPTransactionsViewController: UIViewController {
     
     private func configTable() {
         transactionTableView.rowHeight = 65.0
-        transactionTableView.delegate = self
         transactionTableView.dataSource = self
         transactionTableView.reloadData()
     }
@@ -59,9 +55,4 @@ extension PPTransactionsViewController: UITableViewDataSource {
         return cell
     }
 }
-
-extension PPTransactionsViewController: UITableViewDelegate {
-    
-}
-
 
